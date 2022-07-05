@@ -1,0 +1,78 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^3.0.0",
+    "@popperjs/core": "^2.11.5",
+    "@yeger/vue-masonry-wall": "^3.0.37",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0-beta1",
+    "bootstrap-icons": "^1.8.3",
+    "bootstrap-vue": "^2.22.0",
+    "buefy": "^0.9.21",
+    "core-js": "^3.8.3",
+    "hover.css": "^2.3.2",
+    "masonry-layout": "^4.2.2",
+    "mdb-vue-ui-kit": "^1.14.0",
+    "mdbvue": "^6.7.3",
+    "portal-vue": "^2.1.7",
+    "router": "^1.3.7",
+    "swiper": "^8.2.4",
+    "vue": "^3.2.13",
+    "vue-agile": "^2.0.0",
+    "vue-awesome-swiper": "^5.0.1",
+    "vue-easy-lightbox": "^1.4.1",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-loading-overlay": "^5.0.3",
+    "vue-masonry": "^0.15.0",
+    "vue-router": "^4.0.15",
+    "vue-silentbox": "^2.4.5",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-snap": "^1.0.0-alpha.5",
+    "vue-ui-preloader": "^1.2.1",
+    "vue3-carousel": "^0.1.40",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0",
+    "vue-masonry-css": "^1.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
